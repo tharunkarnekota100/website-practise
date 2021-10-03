@@ -1,0 +1,40 @@
+/* CSS Positioning */
+
+#parent_div{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin: 50px auto;
+    
+}
+
+#child_div{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+
+    /* position: relative;         /*   top bottom left right */
+    /*top: 50px;  
+    left: 80px; */
+
+    /* position: absolute;    top bottom left right it start from {0,0} 
+    top: 50px;
+    left: 50px;  */
+
+    /* position: fixed;
+    top: 50px;
+    right: 50px; */
+
+
+}
+
+/*
+
+there are four types of css positioning:
+
+static[default] css = {0,0}
+relative
+absolute
+fixed
+
+*/
